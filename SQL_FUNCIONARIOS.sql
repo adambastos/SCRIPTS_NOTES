@@ -82,7 +82,7 @@ SELECT * FROM FUNCIONARIOS WHERE DEPARTAMENTO = 'Marketing' OR DEPARTAMENTO = 'F
 verdadeira, pois a segunda opção não será checada nesse caso*/ /*No caso acima, Marketing tem mais chance de uma saída do que Financeiro*/
 
 
-SELECT COUNT(*), CARGO FROM FUNCIONARIOS GROUP BY CARGO ORDER BY 1; /**/
+SELECT COUNT(*), CARGO FROM FUNCIONARIOS GROUP BY CARGO ORDER BY 1; 
 +----------+----------------+
 | COUNT(*) | CARGO          |
 +----------+----------------+
@@ -128,8 +128,7 @@ SELECT COUNT(*), SEXO FROM FUNCIONARIO
 SELECT 
     COUNT(CASE WHEN sexo = 'M' THEN 1 END) AS quantidade_masculino,
     COUNT(CASE WHEN departamento = 'Recursos Humanos' THEN 1 END) AS quantidade_recursos_humanos
-FROM 
-    funcionarios;
+FROM funcionarios;
 	
 
 
