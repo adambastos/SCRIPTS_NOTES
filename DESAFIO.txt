@@ -1,0 +1,5 @@
+bianklinb@gmail.com
+ 
+É apenas um SELECT que seleciona os campos de origem e transformando para o destino
+Tabela lote é a principal
+Cada coluna de origem tenha o nome que está na figura dois

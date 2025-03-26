@@ -71,3 +71,6 @@ WHERE MARCO > (SELECT AVG(MARCO) FROM VENDEDORES);
 | Vinicius Souza   |     9700.00 |
 +------------------+-------------+
 
+/*Conferindo se a querie de media estava correta*/
+SELECT AVG(MARCO) AS MEDIA_MARCO FROM VENDEDORES;
+
