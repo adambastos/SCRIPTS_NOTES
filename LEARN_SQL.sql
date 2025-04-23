@@ -46,4 +46,6 @@ SELECT FIRST_NAME, LAST_NAME, BIRTH_DATE FROM PATIENTS WHERE HEIGHT > 160 AND WE
 /*Write a query to find list of patients first_name, last_name, and allergies where allergies are not null and are from the city of 'Hamilton'*/
 SELECT first_name, last_name, allergies FROM patients WHERE city = 'Hamilton' and allergies is not null
 
-SELECT LOTE_LOT as CONTADOR_MATERIAL, CENTRO +1000 as CENTRO FROM 
+SELECT LOTE_LOT as CONTADOR_MATERIAL, LOJA + 1000 AS CENTRO FROM  
+
+SELECT LOTE.CODI_PSV, 
